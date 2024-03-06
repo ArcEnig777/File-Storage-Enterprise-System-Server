@@ -1,7 +1,10 @@
-# CS-Enterprise-Software_Engineering
-Repository containing the files used to operate a file system server
+# File-Enterprise-System-Server
+Public
+Repository containing the files used to operate a file system server for a Bank managing Loan information. Supports uploads, downloads amd modifying operations as well as multiple searches based on multiple attributes of the files
+such as loan number, date or file type. In addition, said functionalities have a robust logging systemn that logs any errors, uploads and searches, collecting error names, detailed descriptions, dates and session id's or in case of success
+a record of the action, allowing system administrators to know exactly who, when and why an action or error ocurred. All of this logging information was stored in a mySQL database.
 
-Made in an AWS Server using nginx, PHP and mySQL 
+Made in an AWS Server using Ubuntu, nginx, PHP, mySQL, and Chron jobs
 
 functions.php contains the functionality to communicate to the api and request whatever neccesary
 
